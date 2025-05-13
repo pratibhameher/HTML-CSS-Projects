@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Animation</title>
+    <style>
+        body{
+            background-color:#900634 ;
+        }
+       .heart{
+        color: #900634;
+        font-size: 10rem;
+        margin-top:300px;
+        margin-left:650px;
+        animation: beat 1s infinite;
+        display: inline-block;
+        background-color: #d88193;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        border: 15px;
+        border-radius: 20px;
+       }
+       @keyframes beat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+       }
+    </style>
+    </head>
+    <body>
+        <span class="heart">I ❤️ YOU</span>
+    </body>
+</html>
